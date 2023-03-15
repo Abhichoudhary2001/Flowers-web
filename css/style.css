@@ -1,0 +1,347 @@
+body{
+    scroll-behavior: smooth;
+    font-family: 'Climate Crisis', cursive;
+   font-family: 'Poppins', sans-serif;
+   font-family: 'Sono', sans-serif;
+}
+.container{
+    width: 1328px;
+}
+header{
+   background-image: url(/Image/bg-header.jpg);
+   background-repeat: no-repeat;
+   background-position: top left;
+   background-size: cover;
+   
+   padding-top: 50px;
+   padding-bottom: 290px;
+}
+.navbar{
+    background-color: #a96565;
+    border-radius: 38px;
+   
+}
+.navbar-light .navbar-brand,.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    /* font-family: 'montserratthin'; */
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: #e08e9c;
+}
+.nav-item{
+    padding-left: 55px;
+    padding-right: 54px;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url(/Image/toogle.png);
+}
+.navbar-brand{
+    padding-left: 47px;
+}
+.heading-content{
+    padding-left: 60px;
+    padding-top: 140px;
+    /* padding-bottom: 80px; */
+}
+.heading-content h1{
+    font-size: 90px;
+    line-height: 72px;
+    text-transform: uppercase;
+    /* font-family: 'unnabold'; */
+    padding-bottom: 30px;
+}
+.heading-content h4{
+    /* font-family: 'sacramentoregular'; */
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.heading-content p{
+    /* font-family: 'montserratthin'; */
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+.btn-style-one{
+    background-color: #eaff00;
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 26px;
+}
+.btn-style-two{
+    background-color: #eaff00;
+    padding: 10px 21px 11px 21px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 26px;
+}
+
+
+
+/* get-discount-start */
+.get-discount{
+    background-image: url(/Image/get-discount-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #931818;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.get-discount h2{
+    font-size: 50px;
+    /* font-family: 'unnabold'; */
+    text-transform: uppercase;
+}
+.get-discount h4{
+    font-family: 'sacramentoregular';
+    font-size: 40px;
+}
+
+/* our-product-start */
+.our-product{
+    padding-top: 95px;
+    padding-bottom: 100px;
+    background-color: #fcaaaa;
+}
+.our-product h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    /* font-family: 'unnabold'; */
+}
+.our-product p{
+    font-size: 21px;
+    margin-bottom: 2rem;
+}
+.our-product-content{
+    padding-left: 380px;
+    padding-right: 380px;
+}
+.products a{
+    background-color: #bbcc23;
+    text-decoration: none;
+    color: #000;
+    padding: 8px 18px 8px 18px;
+    font-size: 18px;
+    border-radius: 26px;
+    /* font-family: 'montserratthin'; */
+    font-weight: bolder;
+
+}
+.product-padding{
+    text-align: left;
+    padding-left: 94px;
+    padding-top: 30px;
+}
+.products{
+    margin-top: 30px;
+}
+.product-padding h4{
+    /* font-family: 'unnabold'; */
+}
+.product-padding p{
+    /* font-family: 'unnaregular'; */
+}
+
+
+
+
+
+
+
+/* about-us-start */
+.about-us{
+    background-image: url(/Image/about-us-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-us img{
+    border-radius: 38px;
+}
+.about-us h3 , .hpy-birthday h3{
+    font-size: 36px;
+    font-size: 44px;
+    padding-bottom: 20px;
+}
+.about-us p , .hpy-birthday p{
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+.about-us-content{
+    padding: 100px;
+}
+.about-us-img-padding{
+    padding: 100px;
+}
+.btn-style-black{
+    color: #efd0ca;
+    background-color: #000;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 36px;
+}
+
+
+
+
+
+
+
+.hpy-birthday{
+    background-image: url(/Image/happy-birthday-bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    padding-top: 160px;
+}
+
+
+
+
+
+.video-bg{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+.the-flower{
+    background-image: url(/Image/flower-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 260px;
+    padding-bottom: 200px;
+}
+.the-flower h3{
+    font-size: 44px;
+    padding-bottom: 30px;
+}
+.the-flower p{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-section{
+    background-image: url(/Image/flower-sec-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+.form-padding{
+    margin-left: 600px;
+}
+.form-padding h2{
+    font-size: 58px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.form-padding form{
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+.form-padding form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#form-btn{
+    width: 150px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 36px;
+    border: none;
+    background-color: #e7ff11;
+    color: rgb(14, 13, 13);
+    text-transform: uppercase;
+}
+.textarea{
+    border: 1px solid #000000;
+}
+
+
+
+
+
+footer{
+    background-color: #000;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+footer .ftr-lists h3{
+    color: #fff;
+}
+footer .ftr-lists ul{
+    padding-left: 0px;
+}
+footer .ftr-lists ul li{
+    padding-top: 10px;
+}
+footer  .ftr-lists ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+footer .ftr-lists  ul li a:hover{
+    color: red;
+}
+.address-with-link a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.address-with-link h3{
+    color: #fff;
+}
+.address-with-link address{
+    color: #fff;
+    font-size: 20px;
+    padding-top: 14px;
+}
+.ftr-content span{
+    color: #fff;
+}
+.ftr-content ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.ftr-content ul li{
+    display: inline-block;
+}
+
+
+
+
+
+
+
